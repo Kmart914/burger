@@ -1,7 +1,6 @@
 var express = require("express");
-var mysql = require("mysql");
-var parse = require("body-parser");
-var override = require("method-override");
+var bodyParser = require("body-parser");
+var methodOverride = require("method-override");
 
 var port = 3333;
 
